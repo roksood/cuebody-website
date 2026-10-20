@@ -1,0 +1,71 @@
+/* ============================================================
+   CueBody — Legal pages (/terms, /privacy)
+   Uses tokens from styles.css
+   ============================================================ */
+
+.draft-banner {
+  background: var(--magenta);
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 12px 16px;
+}
+
+.legal-header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 16px 0;
+}
+.legal-header img { height: 28px; display: block; }
+
+.legal {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 16px 96px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.legal h1 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  margin: 0 0 8px;
+}
+.legal .legal-meta { color: var(--text-tertiary); font-size: 0.9rem; margin: 0 0 40px; }
+.legal h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--ink);
+  font-size: 1.35rem;
+  margin: 40px 0 12px;
+}
+.legal ul { padding-left: 1.25rem; }
+.legal li { margin-bottom: 6px; }
+.legal a { color: var(--magenta); }
+.legal .placeholder { background: rgba(212, 2, 138, 0.1); color: var(--magenta-700); padding: 0 4px; border-radius: 4px; }
+
+.legal-footer {
+  border-top: 1px solid var(--hairline);
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+
+.legal-summary {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin: 0 0 32px;
+}
+.legal-summary-title { font-weight: 600; color: var(--ink); margin: 0 0 8px; }
+.legal-summary ul { margin: 0; }
+.legal-summary-note { font-size: 0.85rem; color: var(--text-tertiary); margin: 12px 0 0; }
+.legal .legal-caps { font-size: 0.9rem; letter-spacing: 0.01em; color: var(--ink); }
